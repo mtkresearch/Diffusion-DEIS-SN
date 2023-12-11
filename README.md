@@ -1,5 +1,5 @@
 # Diffusion-DEIS-SN
-Repo for [NeurIPS 23 Diffusion workshop](https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/Diffusion) paper titled "_Score Normalization for a Faster Diffusion Exponential Integrator Sampler_" from [MediaTek Research UK](https://i.mediatek.com/mediatekresearch).
+Repo for [NeurIPS 23 Diffusion workshop](https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/Diffusion) paper titled "_[Score Normalization for a Faster Diffusion Exponential Integrator Sampler](https://arxiv.org/abs/2311.00157)_" from [MediaTek Research UK](https://i.mediatek.com/mediatekresearch).
 
 ## Running the code
 
