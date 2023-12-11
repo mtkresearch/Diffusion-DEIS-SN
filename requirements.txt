@@ -1,0 +1,7 @@
+accelerate
+torchvision
+datasets
+torch
+tensorboard
+diffusers==0.12.1
+tqdm

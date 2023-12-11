@@ -1,0 +1,42 @@
+uncond.py:
+  cache_dir: #...
+  checkpointing_steps: 2000
+  clip_grad_norm: 0.0
+  clip_sample: false
+  dataset_config_name: null
+  dataset_name: null
+  diffusion_beta_linear_params:
+  - 0.0001
+  - 0.02
+  diffusion_beta_schedule: linear
+  diffusion_num_steps: 1000
+  ema_decay: 0.9999
+  eval_batch_size: 256
+  exp_name: # ...
+  infer: deissnode
+  inference_num_steps: 6 # change
+  learning_rate: 0.0001
+  logger: tensorboard
+  lr_scheduler: constant
+  lr_warmup_steps: 0
+  mixed_precision: fp16
+  num_epochs: 2500
+  num_samples: 50000
+  output_dir: # ...
+  pixel_resolution: 32
+  prediction_type: epsilon
+  reference_batch_path: # ...
+  resume_from_checkpoint: null
+  reverse_variance: recommended
+  # sample_with: null
+  sampler_order: 3
+  saving_epochs: 50
+  score_abs_Ls_path: ./cifar10_Ls_score_abs.pt
+  clip_normalizer_steps: 5
+  seed: 23
+  timestep_spacing: quadratic
+  train: ddpm
+  train_batch_size: 256
+  train_data_dir: # ...
+  unet_json: ./arch/openai_guided_cifar_32.json
+  use_ema: true

@@ -1,0 +1,22 @@
+{
+    "_class_name": "UNetModel",
+    "_diffusers_version": "0.12.1",
+    "attention_resolutions": "16",
+    "channel_mult": "",
+    "model_channels": 128,
+    "num_head_channels": -1,
+    "num_heads": 1,
+    "num_heads_upsample": -1,
+    "num_res_blocks": 2,
+    "out_channels": 3,
+    "resblock_updown": false,
+    "dropout": 0.1,
+
+    "in_channels": 3,
+    "num_classes": null,
+    "sample_size": 64,
+    "use_checkpoint": false,
+    "use_new_attention_order": false,
+    "use_scale_shift_norm": false
+}
+  
