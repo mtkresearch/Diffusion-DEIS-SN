@@ -30,3 +30,24 @@ By changing the `--infer`, you can alter the sampling algorithm. Possible values
 1. This repo is a subset of a larger repo. Please expect codes that are not part of the paper.
 2. We provide the pre-computed cache stats for two datasets as `cifar10_Ls_score_abs.pt` and `lsunchurch_Ls_score_abs.pt`. You may compute this on your own with any saved model (pipeline) by [uncommenting these lines](https://github.com/mtkresearch/Diffusion-DEIS-SN/blob/8fd766a3a3ea603aaaac5a2583922508a70a332a/core/pipelines/deisabode_pipeline.py#L112) while running an inference with `--infer deisabode --timestep_spacing trailing --inference_num_steps 1000`.
 3. Please also create a virtual env following the `requirements.txt`.
+
+## Citation
+
+Please cite this work using the following bib entry
+
+```
+@inproceedings{
+xia2023score,
+title={Score Normalization for a Faster Diffusion Exponential Integrator Sampler ({DEIS})},
+author={Guoxuan Xia and
+        Duolikun Danier and
+        Ayan Das and
+        Stathi Fotiadis and
+        Farhang Nabiei and
+        Ushnish Sengupta and
+        Alberto Bernacchia},
+booktitle={NeurIPS 2023 Workshop on Diffusion Models},
+year={2023},
+url={https://openreview.net/forum?id=AQvPfN33g9}
+}
+```
